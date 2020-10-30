@@ -1,15 +1,19 @@
 let todo = document.getElementById("to-do");
 let save = document.getElementById("save");
-let input = document.getElementById("input");
+let form = document.getElementById("theForm");
+let userTask = document.getElementById("userTask");
 
-$("input").on("click", function(event){
+$("form").on("submit", function(event){
    event.preventDefault();
-   console.log("did it work?")
+   console.log("it works!")
    
 });
 
 
-// $(save).on("click", function(){
-//     console.log("ive been clicked")
-    
-// })
+
+$("save").on("submit", function() {
+    alert("button was clicked")
+    console.log("saved was clicked")
+
+
+})
