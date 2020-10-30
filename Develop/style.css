@@ -16,6 +16,23 @@ body {
   white-space: pre-wrap;
 }
 
-form {
-  background: lightgreen !important;
+#daTime {
+  border: black solid 10px;
+}
+
+.time {
+  border: black solid 10px !important;
+}
+
+#input {
+  padding: none !important;
+  margin: none !important;
+}
+
+.save {
+  border: black solid 10px !important;
+}
+
+.form-control {
+  background-color: lightgreen !important;
 }
