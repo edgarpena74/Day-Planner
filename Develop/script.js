@@ -2,7 +2,7 @@ let todo = document.getElementById("to-do");
 let save = document.getElementById("save");
 let form = document.getElementById("theForm");
 let userTask = document.getElementById("userTask");
-let formControl = document.getElementsByClassName("form-Control");
+let formControl = document.getElementsByClassName("form-control");
 
 $("#form").on("submit", function(event){
    event.preventDefault();
