@@ -11,7 +11,7 @@ $("form").on("submit", function(event){
 
 
 
-$("save").on("submit", function() {
+$("save").on("click", function() {
     alert("button was clicked")
     console.log("saved was clicked")
 
