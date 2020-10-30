@@ -16,10 +16,6 @@ body {
   white-space: pre-wrap;
 }
 
-#daTime {
-  border: black solid 10px;
-}
-
 .time {
   border: black solid 10px !important;
 }
@@ -27,10 +23,12 @@ body {
 #input {
   padding: none !important;
   margin: none !important;
+  border: black solid 10px;
 }
 
-.save {
+#save {
   border: black solid 10px !important;
+  /* visibility: hidden !important; */
 }
 
 .form-control {
