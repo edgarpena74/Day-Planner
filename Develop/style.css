@@ -20,17 +20,18 @@ body {
   border: black solid 10px !important;
 }
 
-#theForm {
+.theForms {
   padding: none !important;
   margin: none !important;
-  border: black solid 10px;
+  border: black solid 1px;
 }
-
+/* 
 #save {
   border: black solid 10px !important;
   /* visibility: hidden !important; */
-}
+} */
 
-.form-control {
+#to-do,
+#tenAmToDo {
   background: lightgreen;
 }
