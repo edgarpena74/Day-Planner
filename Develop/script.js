@@ -1,16 +1,21 @@
+
+$(document).ready(function () {
 let todo = document.getElementById("to-do");
 let save = document.getElementById("save");
 let form = document.getElementById("theForm");
 let userTask = document.getElementById("userTask");
 let formControl = document.querySelector(".form-control");
 let formGroup = document.getElementsByClassName("form-group");
+let userText = localStorage.getItem("input")
+
+console.log(userText)
 
 
 
 
-document.onload = function () {
-    localStorage.getItem(userText)
-}
+
+
+
 
 $("#theForm").on("submit", function(event){
    event.preventDefault();
@@ -35,6 +40,14 @@ $("#save").on("click",
     
 
     }
-
 )
 
+function task () {
+    todo.value = userText
+    // formControl.style.background = "red";
+
+}
+
+task();
+
+})
