@@ -6,7 +6,7 @@ let form = document.getElementById("theForm");
 let userTask = document.getElementById("userTask");
 let formControl = document.querySelector(".form-control");
 let formGroup = document.getElementsByClassName("form-group");
-let userText = localStorage.getItem("input")
+let userText = localStorage.getItem("input");
 
 console.log(userText)
 
@@ -36,17 +36,23 @@ $("#save").on("click",
     let userText = todo.value
     todo.textContent = userText
     console.log(userText)
-    window.localStorage.setItem("input", userText)
-    
+    window.localStorage.setItem("input", JSON.stringify(userText))
+    console.log(typeof userText)
 
     }
 )
 
 function task () {
-    todo.value = userText
-    // formControl.style.background = "red";
+    todo.value=userText
+    formControl.style.background = "red";
+    console.log("userText is a  " + typeof userText)
+    if (userText === null) {
+        formControl.style.background = "lightgreen"
+       
+    }
 
 }
+
 
 task();
 
