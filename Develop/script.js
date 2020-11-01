@@ -18,15 +18,16 @@ let twoPmBtn =  localStorage.getItem("2-PM");
 let threePmBtn =  localStorage.getItem("3-PM");
 let fourPmBtn =  localStorage.getItem("4-PM");
 let fivePmBtn =  localStorage.getItem("5-PM");
-console.log(nineAmBtn);
-console.log(tenAmBtn);
+let currentDay = document.getElementById("currentDay")
+
+//date and time
+let theDay = moment().format('MMMM Do YYYY, h:mm a');
+     console.log(theDay)
+currentDay.textContent = theDay
 
 
 
-
-
-
-
+//preventing refresh when enter is pressed
 $("#theForm").on("submit", function(event){
    event.preventDefault();
 });
@@ -63,7 +64,7 @@ $("#10AmForm").on("submit", function(event){
 });
 
 
-
+//the functions to save task to local storage
 $("#saveNineAm").on("click", 
 
     function() {
@@ -269,7 +270,7 @@ function fivePmTask () {
 
 
 
-
+//running task functions
 nineAmTask();
 tenAmTask();
 elevenAmTask();
