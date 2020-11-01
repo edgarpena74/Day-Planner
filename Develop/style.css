@@ -33,8 +33,9 @@ body {
   margin: none !important;
   align-content: center !important;
 }
-#userTask {
-  padding: none !important;
+
+.form-group {
+  margin-bottom: 0 !important;
 }
 
 .form-control {
@@ -42,4 +43,9 @@ body {
   margin: none !important;
   width: none !important;
   padding: none !important;
+}
+
+.btn {
+  background-color: #00bfff !important;
+  border-radius: 0 !important;
 }
