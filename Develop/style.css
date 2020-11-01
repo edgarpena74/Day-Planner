@@ -12,6 +12,10 @@ body {
   border-bottom: 10px solid black;
 }
 
+.row {
+  height: 70px !important;
+  align-content: center !important;
+}
 .theForms {
   padding: none !important;
   margin: none !important;
@@ -27,9 +31,15 @@ body {
 #theForm {
   padding: none !important;
   margin: none !important;
+  align-content: center !important;
+}
+#userTask {
+  padding: none !important;
 }
 
 .form-control {
+  height: 67px !important;
+  margin: none !important;
+  width: none !important;
   padding: none !important;
-  align-self: center !important;
 }
