@@ -63,66 +63,64 @@ function nineAmTask () {
 
 }
 
-// $("#saveTenAm").on("click", 
+$("#saveTenAm").on("click", 
 
-//     function() {
+    function() {
 
-//     alert("button was clicked");
-//     console.log("saved was clicked");
-//     tenAmToDo.style.background = "red";
-//     console.log("should be red?");
-//     let tenAmBtn = tenAmToDo.value
-//     tenAmToDo.textContent = tenAmBtn
-//     console.log(tenAmBtn)
-//     window.localStorage.setItem("10-AM", JSON.stringify(tenAmBtn))
-//     console.log(typeof tenAmBtn)
+    alert("button was clicked");
+    console.log("saved was clicked");
+    tenAmToDo.style.background = "red";
+    console.log("should be red?");
+    let tenAmBtn = tenAmToDo.value
+    tenAmToDo.textContent = tenAmBtn
+    console.log(tenAmBtn)
+    window.localStorage.setItem("10-AM", JSON.stringify(tenAmBtn))
+    console.log(typeof tenAmBtn)
 
-//     }
-// )
+    }
+)
 
 
-// function tenAmTask () {
-//     tenAmToDo.value = tenAmBtn
-//     tenAmToDo.style.background = "red";
-//     console.log("tenAmBtn is a  " + typeof tenAmBtn)
-//     if (tenAmBtn === null) {
-//         tenAmToDo.style.background = "lightgreen"
+function tenAmTask () {
+    tenAmToDo.value = tenAmBtn
+    tenAmToDo.style.background = "red";
+    console.log("tenAmBtn is a  " + typeof tenAmBtn)
+    if (tenAmBtn === null) {
+        tenAmToDo.style.background = "lightgreen"
        
-//     }
+    }
 
-// }
+}
 
-// $("#saveElevenAm").on("click", 
+$("#saveElevenAm").on("click", 
 
-//     function() {
+    function() {
 
-//     alert("button was clicked");
-//     console.log("saved was clicked");
-//     elevenAmToDo.style.background = "red";
-//     console.log("should be red?");
-//     let elevenAmBtn = elevenAmToDo.value
-//     elevenAmToDo.textContent = elevenAmBtn
-//     console.log(elevenAmBtn)
-//     window.localStorage.setItem("11-AM", JSON.stringify(elevenAmBtn))
-//     console.log(typeof elevenAmBtn)
-//     if (elevenAmToDo.value === "unavailable"){
-//         elevenAmToDo.style.background = "grey";
-//     }
+    alert("button was clicked");
+    console.log("saved was clicked");
+    elevenAmToDo.style.background = "red";
+    console.log("should be red?");
+    let elevenAmBtn = elevenAmToDo.value
+    elevenAmToDo.textContent = elevenAmBtn
+    console.log(elevenAmBtn)
+    window.localStorage.setItem("11-AM", JSON.stringify(elevenAmBtn))
+    console.log(typeof elevenAmBtn)
+  
 
 
-//     }
-// )
+    }
+)
 
 
-// function elevenAmTask () {
-//     elevenAmToDo.value = elevenAmBtn
-//     elevenAmToDo.style.background = "red";
-//     console.log("elevenAmBtn is a  " + typeof elevenAmBtn)
-//     if (elevenAmBtn === null) {
-//         elevenAmToDo.style.background = "lightgreen"
+function elevenAmTask () {
+    elevenAmToDo.value = elevenAmBtn
+    elevenAmToDo.style.background = "red";
+    console.log("elevenAmBtn is a  " + typeof elevenAmBtn)
+    if (elevenAmBtn === null) {
+        elevenAmToDo.style.background = "lightgreen"
        
-//     }
-// }
+    }
+}
 
 
 
