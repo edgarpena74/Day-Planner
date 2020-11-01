@@ -12,26 +12,24 @@ body {
   border-bottom: 10px solid black;
 }
 
-.description {
-  white-space: pre-wrap;
-}
-
-.time {
-  border: black solid 10px !important;
-}
-
 .theForms {
   padding: none !important;
   margin: none !important;
   border: black solid 1px;
 }
-/* 
-#save {
-  border: black solid 10px !important;
-  /* visibility: hidden !important; */
-} */
 
-#to-do,
-#tenAmToDo {
-  background: lightgreen;
+.time {
+  padding: none !important;
+  margin: none !important;
+  align-self: center !important;
+}
+
+#theForm {
+  padding: none !important;
+  margin: none !important;
+}
+
+.form-control {
+  padding: none !important;
+  align-self: center !important;
 }

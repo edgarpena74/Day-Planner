@@ -23,39 +23,27 @@
   </head>
 
   <body>
-    <!-- ********CHECK THAT EVERYTHING ON THE CRITERIA IT MET -->
-    <!-- have the days of the week layed out -->
-    <!-- have them be clickable  -->
-    <!-- drops down a sot of menu that you can add time, and event -->
-    <!-- color code time blocks depending if they are open of busy-->
-    <!-- grey is time off basically, green is available, red is busy-->
-    <!-- let people choose the color that they want to set for the times -->
-    <!-- when a time is saved let it be automatically red -->
-    <!-- if time is free let it turn green again -->
-    <!-- the events will be saved in local storage -->
-    <!-- i will need a calendar at the top that get updated with the current date -->
-    <!--  -->
-    <!--  -->
-    <!--  -->
-    <!-- data needs to be saved to local storage via forms -->
-    <!-- there also needs to be a button or options that can clear the local storage -->
-    <!-- //////******** just for one day yay -->
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-      <!-- start with one hour -->
-    
+ 
+      <!-- theForms is the whole row -->
       <div class="row theForms" id="nineAm" >
+        <!-- time will just be the time section -->
         <div class="col-md-1 time">9 AM</div>
-        <form class="col-md-10" id="theForm" >
+        <form class="col-md-10 " id="theForm" >
+          <!-- userTask take care of user input -->
           <div class="form-group" id="userTask">
+            
             <input type="text" class="form-control" id="to-do" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="to-do" id="saveNineAm">save</button>
+        <!-- btn will change buttons css -->
+        <button type="button" class="col-md-1 btn" form="to-do" id="saveNineAm">save</button>
       </div>
 
       <div class="row theForms" id="tenAm">
@@ -65,7 +53,7 @@
             <input type="text" class="form-control" id="tenAmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="tenAmToDo" id="saveTenAm">save</button>
+        <button type="button" class="col-md-1 btn" form="tenAmToDo" id="saveTenAm">save</button>
       </div>
 
       <div class="row theForms" id="elevenAm">
@@ -75,7 +63,7 @@
             <input type="text" class="form-control" id="elevenAmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="elevenAmToDo" id="saveElevenAm">save</button>
+        <button type="button" class="col-md-1 btn" form="elevenAmToDo" id="saveElevenAm">save</button>
       </div>
 
       <div class="row theForms" id="twelvePm">
@@ -85,7 +73,7 @@
             <input type="text" class="form-control" id="twelvePmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="twelvePmToDo" id="saveTwelvePm">save</button>
+        <button type="button" class="col-md-1 btn" form="twelvePmToDo" id="saveTwelvePm">save</button>
       </div>
 
       <div class="row theForms" id="onePm">
@@ -95,7 +83,7 @@
             <input type="text" class="form-control" id="onePmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="onePmToDo" id="saveOnePm">save</button>
+        <button type="button" class="col-md-1 btn" form="onePmToDo" id="saveOnePm">save</button>
       </div>
 
       <div class="row theForms" id="twoPm">
@@ -105,7 +93,7 @@
             <input type="text" class="form-control" id="twoPmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="twoPmToDo" id="saveTwoPm">save</button>
+        <button type="button" class="col-md-1 btn" form="twoPmToDo" id="saveTwoPm">save</button>
       </div>
 
       <div class="row theForms" id="threePm">
@@ -115,7 +103,7 @@
             <input type="text" class="form-control" id="threePmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="threePmToDo" id="saveThreePm">save</button>
+        <button type="button" class="col-md-1 btn" form="threePmToDo" id="saveThreePm">save</button>
       </div>
 
       <div class="row theForms" id="fourPm">
@@ -125,7 +113,7 @@
             <input type="text" class="form-control" id="fourPmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="fourPmToDo" id="saveFourPm">save</button>
+        <button type="button" class="col-md-1 btn" form="fourPmToDo" id="saveFourPm">save</button>
       </div>
 
       <div class="row theForms" id="fivePm">
@@ -135,7 +123,7 @@
             <input type="text" class="form-control" id="fivePmToDo" placeholder="To-Do" value="">
           </div>
         </form>
-        <button type="button" class="col-md-1" form="fivePmToDo" id="saveFivePm">save</button>
+        <button type="button" class="col-md-1 btn" form="fivePmToDo" id="saveFivePm">save</button>
       </div>
      
       
